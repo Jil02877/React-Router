@@ -1,9 +1,9 @@
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
-import GitHub from "./GitHub/GitHub";
-import Header from "./Header/Header";
-import Home from "./Home/Home";
-import User from "./User/User";
+import About from "./about/About";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
+import GitHub from "./github/GitHub";
+import Header from "./header/Header";
+import Home from "./home/Home";
+import User from "./user/User";
 
 export {About,Contact,Footer,GitHub,Header,Home,User}
