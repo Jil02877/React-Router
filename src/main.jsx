@@ -35,21 +35,21 @@ import GitHub from './components/GitHub/GitHub.jsx'
 // Method-2 for Route Creation
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home/>}/>
-      <Route path='about' element={<About/>}/>
-      <Route path='contact' element={<Contact/>}/>
-      <Route path='user/:userid' element={<User/>}/>
-      <Route 
-      // loader={githubInfoLoader}
-      path='github' 
-      element={<GitHub/>}/>
+    <Route path='/' element={<Layout />}>
+      <Route path='' element={<Home />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='user/:userid' element={<User />} />
+      <Route
+        // loader={githubInfoLoader}
+        path='github'
+        element={<GitHub />} />
     </Route>
   )
 )
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
