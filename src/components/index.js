@@ -1,9 +1,9 @@
-import About from "./about/About.jsx";
-import Contact from "./contact/Contact.jsx";
-import Footer from "./footer/Footer.jsx";
-import GitHub from "./github/GitHub.jsx";
-import Header from "./header/Header.jsx";
-import Home from "./home/Home.jsx";
-import User from "./user/User.jsx";
+import About from "./About/About.jsx";
+import Contact from "./Contact/Contact.jsx";
+import Footer from "./Footer/Footer.jsx";
+import GitHub from "./Github/GitHub.jsx";
+import Header from "./Header/Header.jsx";
+import Home from "./Home/Home.jsx";
+import User from "./User/User.jsx";
 
 export {About,Contact,Footer,GitHub,Header,Home,User}
